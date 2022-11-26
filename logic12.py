@@ -1,4 +1,5 @@
 def main(a):
+    return a//10==a%10
     """
     Given a two-digit integer a,  check the following statement "All digits of the number are the same".
     Args:
@@ -6,4 +7,4 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+print(main(32))
