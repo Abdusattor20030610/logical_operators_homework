@@ -1,4 +1,5 @@
 def main(a):
+    return 10>a//10>=1
     """
     Given integer a,  check the following statement "The integer is two-digit number".
     Args:
@@ -6,4 +7,4 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+print(main(3))
