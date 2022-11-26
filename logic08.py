@@ -1,5 +1,8 @@
 def main(a,b):
-    """
+    x=a%2==0 
+    y=b%2==0
+    return x or y
+"""
     Given two integers a, b,  check the following statement "At least one of the numbers 'a' and 'b' is even".
     Args:
         a(int): parameter a
@@ -7,4 +10,4 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+print(main(6,8))
