@@ -1,7 +1,8 @@
 def main(a,b):
     x=a>0 or b<0
     y=a<0 or b>0
-    return x or y
+    z=a>0 or b>0
+    return  x or y or z
 print(main(-3,8))
 
 """
